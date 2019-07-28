@@ -26,6 +26,8 @@ namespace FriendLetter
     }
        public void Configure(IApplicationBuilder app)
     {
+      //// line below produces the error when fails to load
+       app.UseDeveloperExceptionPage();
       app.UseMvc(routes =>
       {
         routes.MapRoute(
