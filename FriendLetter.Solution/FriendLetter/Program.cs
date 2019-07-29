@@ -5,6 +5,7 @@ namespace FriendLetter
 {
       public class Program
   {
+    ////inital start to the program
     public static void Main(string[] args)
     {
       var host = new WebHostBuilder()
